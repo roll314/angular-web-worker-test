@@ -1,0 +1,9 @@
+<div class="row">
+  <div class="cell"><div class="text-ellipsis">{{row.overrideId}}</div></div>
+  <div class="cell"><div class="text-ellipsis">{{row.int}}</div></div>
+  <div class="cell"><div class="text-ellipsis">{{row.float}}</div></div>
+  <div class="cell" [style.background-color]="row.color"><div class="text-ellipsis">{{row.color}}</div></div>
+  <div class="cell">
+    <app-child-data-cell [childData]="row.child"></app-child-data-cell>
+  </div>
+</div>

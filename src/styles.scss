@@ -1,0 +1,25 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 100%;
+  min-width: 0;
+
+  justify-content: space-between;
+}
+
+.cell {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.text-ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 100%;
+}

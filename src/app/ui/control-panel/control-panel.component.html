@@ -1,0 +1,19 @@
+<div class="container">
+  <form [formGroup]="form">
+    <div class="row">
+
+      <div class="cell">
+        <label for="emit-interval">Timer, ms</label>
+        <input type="number" [formControlName]="FormFields.EMIT_INTERVAL" id="emit-interval">
+      </div>
+      <div class="cell">
+        <label for="data-count">Array size</label>
+        <input type="number" [formControlName]="FormFields.DATA_COUNT" id="data-count">
+      </div>
+      <div class="cell">
+        <label for="overrided-ids">Additional array ids</label>
+        <input type="text" [formControlName]="FormFields.OVERRIDED_IDS" id="overrided-ids">
+      </div>
+    </div>
+  </form>
+</div>

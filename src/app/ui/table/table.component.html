@@ -1,0 +1,5 @@
+<app-control-panel></app-control-panel>
+<div class="table-section">
+  <app-table-header></app-table-header>
+  <app-table-row *ngFor="let row of data;trackBy: trackById" [row]="row"></app-table-row>
+</div>

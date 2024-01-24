@@ -1,0 +1,19 @@
+:host {
+  display: flex;
+  flex: 1 1 100%;
+  flex-direction: column;
+
+  app-table-row, app-table-header, app-control-panel {
+    margin-bottom: 8px;
+  }
+
+  app-control-panel {
+    border-bottom: 1px solid black;
+  }
+
+  .table-section {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+}
